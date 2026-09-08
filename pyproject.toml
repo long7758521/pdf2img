@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf2img"
+version = "1.0.0"
+description = "PDF 转图片命令行工具（CLI），支持 Word VBA 无人值守调用。"
+requires-python = ">=3.8"
+dependencies = ["PyMuPDF>=1.24"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

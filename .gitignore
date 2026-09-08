@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# 构建目录
+build/
+dist/
+*.spec
+
+# 虚拟环境
+.venv/
+venv/
+
+# 临时输出与日志
+output/
+*.log
+
+# 测试产物（由 tests/make_test_pdf.py 生成）
+tests/test_*.pdf
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 系统
+Thumbs.db
+.DS_Store
